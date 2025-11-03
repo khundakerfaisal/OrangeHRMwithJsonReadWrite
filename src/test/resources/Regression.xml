@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="HRM Project">
+    <test name="Login Test">
+        <classes>
+            <class name="TestRunner.LoginTest"/>
+        </classes>
+    </test>
+    <test name="Create User Test">
+        <classes>
+            <class name="TestRunner.PIMTest"/>
+        </classes>
+    </test>
+<!--    <test name="Login With JSON Test">-->
+<!--        <classes>-->
+<!--            <class name="TestRunner.loginWithJson"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>
