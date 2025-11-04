@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <suite name="HRM Project">
     <test name="Login Test">
+        <groups>
+            <run>
+                <include name="Regression"/>
+            </run>
+        </groups>
         <classes>
             <class name="TestRunner.LoginTest"/>
         </classes>
     </test>
     <test name="Create User Test">
+        <groups>
+            <run>
+                <include name="Regression"/>
+            </run>
+        </groups>
         <classes>
             <class name="TestRunner.PIMTest"/>
         </classes>
     </test>
     <test name="Login With JSON Test">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
         <classes>
             <class name="TestRunner.loginWithJson"/>
         </classes>

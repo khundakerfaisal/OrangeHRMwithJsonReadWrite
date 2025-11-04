@@ -10,14 +10,14 @@ import java.time.Duration;
 public class SetupBrowser {
     public WebDriver driver;
 
-    @BeforeTest
+    @BeforeTest(groups = "Regression")
 
     public void StartBrowser() {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
     }
-    @AfterTest
+    @AfterTest(groups = "Regression")
     public void CloseBrowser() {
         driver.quit();
 

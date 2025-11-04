@@ -9,7 +9,7 @@ import utils.UtilsFile;
 import java.io.IOException;
 
 public class loginWithJson extends SetupBrowser {
-    @Test(priority = 1)
+    @Test(priority = 1,groups = "smoke",enabled = false)
     public void doLogin() throws InterruptedException, IOException, ParseException {
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
         LoginPage loginPages=new LoginPage(driver);

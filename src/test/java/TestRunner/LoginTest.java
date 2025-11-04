@@ -6,7 +6,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
 public class LoginTest extends SetupBrowser {
-   @Test(priority = 1)
+   @Test(priority = 1,groups = "Regression")
     public void doLogin() throws InterruptedException {
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
         LoginPage loginPages=new LoginPage(driver);

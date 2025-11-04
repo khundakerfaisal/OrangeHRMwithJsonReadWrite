@@ -11,7 +11,7 @@ import utils.UtilsFile;
 import java.io.IOException;
 
 public class PIMTest extends SetupBrowser {
-    @Test(priority = 1)
+    @Test(priority = 1,groups = "Regression")
     public void doLogin() throws InterruptedException {
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
         LoginPage loginPages=new LoginPage(driver);
@@ -21,7 +21,7 @@ public class PIMTest extends SetupBrowser {
         loginPages.hrmLoginPage(username,password);
         Thread.sleep(1000);
     }
-    @Test(priority = 2)
+    @Test(priority = 2,groups = "Regression")
     public void createEmployee() throws InterruptedException, IOException, ParseException {
         PIMPages pimPages=new PIMPages(driver);
         Faker faker=new Faker();
@@ -33,6 +33,7 @@ public class PIMTest extends SetupBrowser {
         String confirmPassword="Ab@2025";
         pimPages.pimMenuOperation(firstName,middleName,lastName,userName,password,confirmPassword);
         UtilsFile.saveEmployee(userName,password,confirmPassword);
+        Thread.sleep(5000);
 
 
 
