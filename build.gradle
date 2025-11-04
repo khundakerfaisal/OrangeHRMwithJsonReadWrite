@@ -33,8 +33,8 @@ test {
             systemProperties.put("suiteName", project.property("suiteName"))
         }
 
-        suites "./src/test/resources/Regression.xml"
-//        suites "./src/test/resources/Regression.xml" +systemProperties.get("suiteName")
+//        suites "./src/test/resources/Regression.xml"
+        suites "./src/test/resources/" +systemProperties.get("suiteName")
     }
 
 }

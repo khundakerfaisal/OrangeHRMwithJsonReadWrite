@@ -1,15 +1,1 @@
-[
-  {
-    "UserName": "ronny.boehm",
-    "FirstName": "Christinia",
-    "LastName": "Kub",
-    "MiddleName": "Donya Considine Hirthe Sr.",
-    "Password": "Pa@ssord123",
-    "ConfirmPassword": "Pa@ssord123"
-  },
-  {
-    "UserName": "lamar.rice",
-    "Password": "Ab@2025",
-    "ConfirmPassword": "Ab@2025"
-  }
-]
+[{"UserName":"ronny.boehm","FirstName":"Christinia","LastName":"Kub","MiddleName":"Donya Considine Hirthe Sr.","Password":"Pa@ssord123","ConfirmPassword":"Pa@ssord123"},{"UserName":"lamar.rice","Password":"Ab@2025","ConfirmPassword":"Ab@2025"},{"UserName":"jeremy.dare","Password":"Ab@2025","ConfirmPassword":"Ab@2025"},{"UserName":"nathan.farrell","Password":"Ab@2025","ConfirmPassword":"Ab@2025"}]

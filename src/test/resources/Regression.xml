@@ -10,9 +10,9 @@
             <class name="TestRunner.PIMTest"/>
         </classes>
     </test>
-<!--    <test name="Login With JSON Test">-->
-<!--        <classes>-->
-<!--            <class name="TestRunner.loginWithJson"/>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="Login With JSON Test">
+        <classes>
+            <class name="TestRunner.loginWithJson"/>
+        </classes>
+    </test>
 </suite>
