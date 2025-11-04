@@ -23,7 +23,7 @@
     <test name="Login With JSON Test">
         <groups>
             <run>
-                <include name="smoke"/>
+                <include name="Regression"/>
             </run>
         </groups>
         <classes>
